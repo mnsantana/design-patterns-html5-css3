@@ -1,1 +1,1 @@
-# design-patterns-html5-css3 based on Bowers, Synodinos and Sumner book by Apress. 
+These design-patterns in html5 & css3 are based on Bowers, Synodinos, and Sumner book by Apress. 
