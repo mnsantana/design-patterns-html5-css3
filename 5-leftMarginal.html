@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Left marginal</title>
+    <!-- comment: the idea behind this pattern is to move one or more elements out of a block into its left margin so you can have headings (or notes, images, etc.) on the left and content on the right . -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> -->
+    <!-- <link rel="stylesheet" href="site.css" media="all" type="text/css" /> -->
+
+    <style>
+        body {
+            padding: 0 10px;
+            font-family: verdana, arial, sans-serif;
+            font-size: medium;
+        }
+
+        h1 {
+            margin: 0px;
+            margin-bottom: 20px;
+            font-size: 1.9em;
+        }
+
+        h2 {
+            font-size: 1.2em;
+        }
+
+        *.left-marginal {
+            position: relative;
+            margin-left: 200px;
+        }
+
+        *.marginal-heading {
+            position: absolute;
+            left: -200px;
+            top: 0;
+            margin: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Left Marginal</h1>
+    <div class="left-marginal">
+        <h2 class="marginal-heading">Heading</h2>
+        You want to excerpt an element and move it into the left margin.
+    </div>
+
+</body>
+
+</html>
